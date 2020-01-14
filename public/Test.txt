@@ -1,0 +1,18 @@
+          <span>${actor.who}</span>
+          <span>${actor.type}</span>
+          <span>${actor.amount}</span>
+
+          output 				{
+  font-family: "Courier New";
+  margin-top: 10px;
+  font-size:15px;
+  padding:10px 10px 10px 5px;
+  display:block;
+  width:170px;
+  border:none;
+  border-bottom:1px solid #ffd152;
+}
+
+<div>
+          <output>${actor.who} ${actor.type} <br>${actor.amount}</br> </output>
+        </div>

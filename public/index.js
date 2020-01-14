@@ -7,10 +7,8 @@
     const div = document.createElement('div');
     const template = actors.map(actor => {
       return `
-        <div class="actor">
-          <span>${actor.who}</span>
-          <span>${actor.type}</span>
-          <span>${actor.amount}</span>
+        <div class = "actor">
+          <output>${actor.who} ${actor.type} ${actor.amount}</output>
         </div>
       `;
     }).join('');
@@ -30,6 +28,7 @@
     const distance = document.querySelector('#rental .group .js-distance').value;
     const option = document.querySelector('#rental .group .js-option').checked;
     const actors = VIRTUO.payActors(car, begin, end, distance, option);
+    console.log(actors);
 
     render(actors);
 
