@@ -8,7 +8,7 @@
     const template = actors.map(actor => {
       return `
         <div class = "actor">
-          <output>${actor.who} ${actor.type} ${actor.amount}</output>
+          <output>${actor.who} ${actor.type} <br>${actor.amount}</br> </output>
         </div>
       `;
     }).join('');
