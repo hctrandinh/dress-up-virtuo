@@ -2,7 +2,9 @@
 
 /* basic stylings ------------------------------------------ */
 body 				 
-{ background-color: rgb(255, 255, 255); }
+{ 
+  background-color : rgb(249, 249, 250); 
+}
 
 .container 		{ 
   font-family:'Roboto';
@@ -52,6 +54,8 @@ output 				{
   margin-bottom:45px; 
 }
 input 				{
+  background: transparent;
+  border: none;
   margin-top: 10px;
   font-size:18px;
   padding:10px 10px 10px 5px;
