@@ -7,7 +7,7 @@
     const div = document.createElement('div');
     const template = actors.map(actor => {
       return `
-        <div class = "actor">
+        <div class = "centered">
           <output>${actor.who} ${actor.type} <br>${actor.amount}</br> </output>
         </div>
       `;
